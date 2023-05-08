@@ -11,14 +11,14 @@ with open("README.md", "r", encoding='utf-8') as f:
     long_description = f.read()
 
 setuptools.setup(
-    name="caiber_test",
+    name="caibertest",
     version=version.__version__,
     author="Anubhav Tiwari",
     author_email="abt.exp@gmail.com",
     description="A Simple Test Library For Projectaile",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/caibernate/caiber_test",
+    url="https://github.com/caibernate/caibertest",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
@@ -28,8 +28,8 @@ setuptools.setup(
         "Programming Language :: Python :: 3.10"
     ],
     project_urls={
-        "Source": "https://github.com/caibernate/caiber_test",
-        "Tracker": "https://github.com/caibernate/caiber_test/issues",
+        "Source": "https://github.com/caibernate/caibertest",
+        "Tracker": "https://github.com/caibernate/caibertest/issues",
     },
     python_requires=">=3.6",
     install_requires=required,
